@@ -1,0 +1,58 @@
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-decoration: none;
+}
+header {
+    font-size: 15px;
+    background-color: navy;
+    padding: 1px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+main , footer{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.attractions {
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    text-align: center;
+
+}
+h1 {
+    font-family: nunito, sans-serif ;
+}
+p {
+    font-family: libre franklin, sans-serif;
+}
+table {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: left;
+    flex-grow: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+th, td {
+    padding-left: 40px; 
+    padding-right: 70px;
+    text-align: left;
+}
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    color: navy;
+    font-size: 40px;
+}
+
+
